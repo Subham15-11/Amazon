@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Labmentiix/Amazon/mlruns/190647272504744062/bbe2e7945c114950b5a30f2c5b0f08e5/artifacts
+end_time: 1759338151777
+entry_point_name: ''
+experiment_id: '190647272504744062'
+lifecycle_stage: active
+run_id: bbe2e7945c114950b5a30f2c5b0f08e5
+run_name: Random Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759338088673
+status: 3
+tags: []
+user_id: Dell

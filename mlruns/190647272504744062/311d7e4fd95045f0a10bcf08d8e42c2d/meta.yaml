@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Labmentiix/Amazon/mlruns/190647272504744062/311d7e4fd95045f0a10bcf08d8e42c2d/artifacts
+end_time: 1759338303098
+entry_point_name: ''
+experiment_id: '190647272504744062'
+lifecycle_stage: active
+run_id: 311d7e4fd95045f0a10bcf08d8e42c2d
+run_name: Support Vector Regressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759338204202
+status: 3
+tags: []
+user_id: Dell

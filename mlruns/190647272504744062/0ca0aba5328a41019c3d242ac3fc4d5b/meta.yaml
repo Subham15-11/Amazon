@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Labmentiix/Amazon/mlruns/190647272504744062/0ca0aba5328a41019c3d242ac3fc4d5b/artifacts
+end_time: 1759338198126
+entry_point_name: ''
+experiment_id: '190647272504744062'
+lifecycle_stage: active
+run_id: 0ca0aba5328a41019c3d242ac3fc4d5b
+run_name: Gradient Boosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759338151823
+status: 3
+tags: []
+user_id: Dell

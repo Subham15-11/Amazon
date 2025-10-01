@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Labmentiix/Amazon/mlruns/190647272504744062/models/m-ff46d778b1ed424fb32b61485d90e59f/artifacts
+creation_timestamp: 1759338199312
+experiment_id: '190647272504744062'
+last_updated_timestamp: 1759338204147
+model_id: m-ff46d778b1ed424fb32b61485d90e59f
+model_type: ''
+name: Decision_Tree_model
+source_run_id: 4e0f1e9d2217417da1c00c084c99d5f8
+status: 2
+status_message: null
