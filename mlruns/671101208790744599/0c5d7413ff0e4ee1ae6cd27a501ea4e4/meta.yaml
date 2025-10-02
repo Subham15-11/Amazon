@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Labmentiix/Amazon/mlruns/671101208790744599/0c5d7413ff0e4ee1ae6cd27a501ea4e4/artifacts
+end_time: 1759385498856
+entry_point_name: ''
+experiment_id: '671101208790744599'
+lifecycle_stage: active
+run_id: 0c5d7413ff0e4ee1ae6cd27a501ea4e4
+run_name: Decision Tree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759385492446
+status: 3
+tags: []
+user_id: Dell

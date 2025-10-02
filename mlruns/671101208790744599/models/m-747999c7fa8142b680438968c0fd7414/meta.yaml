@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Labmentiix/Amazon/mlruns/671101208790744599/models/m-747999c7fa8142b680438968c0fd7414/artifacts
+creation_timestamp: 1759385444068
+experiment_id: '671101208790744599'
+last_updated_timestamp: 1759385448885
+model_id: m-747999c7fa8142b680438968c0fd7414
+model_type: ''
+name: Random_Forest_model
+source_run_id: 02be4d00b1f14147ba383260ce66438c
+status: 2
+status_message: null

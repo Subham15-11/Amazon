@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/Labmentiix/Amazon/mlruns/671101208790744599/ac09ed9be100499891507a2101c37da7/artifacts
+end_time: 1759385387744
+entry_point_name: ''
+experiment_id: '671101208790744599'
+lifecycle_stage: active
+run_id: ac09ed9be100499891507a2101c37da7
+run_name: Linear Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759385372644
+status: 3
+tags: []
+user_id: Dell

@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Labmentiix/Amazon/mlruns/671101208790744599/models/m-302764838fac4b7f99842987a2344642/artifacts
+creation_timestamp: 1759385604628
+experiment_id: '671101208790744599'
+last_updated_timestamp: 1759385610391
+model_id: m-302764838fac4b7f99842987a2344642
+model_type: ''
+name: XGBoost_model
+source_run_id: d3825d88c6f34a94a8c23842f5c6c5ce
+status: 2
+status_message: null

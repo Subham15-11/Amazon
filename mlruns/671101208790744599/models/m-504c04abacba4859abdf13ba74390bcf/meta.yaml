@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Labmentiix/Amazon/mlruns/671101208790744599/models/m-504c04abacba4859abdf13ba74390bcf/artifacts
+creation_timestamp: 1759385487316
+experiment_id: '671101208790744599'
+last_updated_timestamp: 1759385492398
+model_id: m-504c04abacba4859abdf13ba74390bcf
+model_type: ''
+name: Gradient_Boosting_model
+source_run_id: 0da32b7aa5f5481d834559125225f859
+status: 2
+status_message: null

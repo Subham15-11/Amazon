@@ -1,0 +1,10 @@
+artifact_location: file:///D:/Labmentiix/Amazon/mlruns/671101208790744599/models/m-2883dab33a414025888aaba5cc1f84bc/artifacts
+creation_timestamp: 1759385373183
+experiment_id: '671101208790744599'
+last_updated_timestamp: 1759385387728
+model_id: m-2883dab33a414025888aaba5cc1f84bc
+model_type: ''
+name: Linear_Regression_model
+source_run_id: ac09ed9be100499891507a2101c37da7
+status: 2
+status_message: null

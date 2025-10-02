@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Labmentiix/Amazon/mlruns/671101208790744599/models/m-302764838fac4b7f99842987a2344642/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.4
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: xgb
+    xgb_version: 3.0.5
+mlflow_version: 3.4.0
+model_id: m-302764838fac4b7f99842987a2344642
+model_size_bytes: 549030
+model_uuid: m-302764838fac4b7f99842987a2344642
+prompts: null
+run_id: d3825d88c6f34a94a8c23842f5c6c5ce
+utc_time_created: '2025-10-02 06:13:24.736321'

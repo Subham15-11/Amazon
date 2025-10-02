@@ -1,0 +1,22 @@
+artifact_path: file:///D:/Labmentiix/Amazon/mlruns/671101208790744599/models/m-2eac8c45c62a4c94864e6892f2144562/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.0
+mlflow_version: 3.4.0
+model_id: m-2eac8c45c62a4c94864e6892f2144562
+model_size_bytes: 187076
+model_uuid: m-2eac8c45c62a4c94864e6892f2144562
+prompts: null
+run_id: 0c5d7413ff0e4ee1ae6cd27a501ea4e4
+utc_time_created: '2025-10-02 06:11:33.886581'
