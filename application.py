@@ -4,6 +4,7 @@ import xgboost as xgb
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import mlflow.xgboost
+import requests
 
 st.set_page_config(
     page_title="Amazon Delivery Time Prediction", page_icon="🚚", layout="centered"
@@ -27,9 +28,18 @@ if I deployed the model using MLflow Model Registry, I would use the above line 
 
 # r is used for raw string to handle backslashes in Windows paths
 
-model_name = "XGBoost_RegModel"
-stage = "Production"
-loaded_model = mlflow.xgboost.load_model(f"models:/{model_name}/{stage}")
+
+## https://drive.google.com/file/d/1ImSC4VeSzzeOa89x3FHd2hqVLjNqTgig/view?usp=sharing
+
+file_id = "1ImSC4VeSzzeOa89x3FHd2hqVLjNqTgig"
+download_url = f"https://drive.google.com/uc?export=download&id={file_id}"
+
+# response = requests.get(download_url)
+# with open("model.xgb", "wb") as f:
+#     f.write(response.content)
+
+loaded_model = xgb.Booster()
+loaded_model.load_model("model.xgb")
 
 df = pd.read_csv("Cleaned_amazon_delivery.csv")
 le = LabelEncoder()
@@ -81,9 +91,13 @@ if submitted:
             }
         ]
     )
+    
+    # Convert to DMatrix
+    dmatrix_data = xgb.DMatrix(new_data)
+    
     # Make prediction
     with st.spinner("Predicting... ⏳"):
-        answer = loaded_model.predict(new_data)[0]
+        answer = loaded_model.predict(dmatrix_data)[0]
         st.toast("Prediction successful!", icon="✅")  # Popup toast messages
 
     st.markdown(
