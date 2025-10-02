@@ -1,5 +1,6 @@
 import streamlit as st
 import mlflow.pyfunc
+import xgboost as xgb
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
@@ -11,7 +12,19 @@ st.title("Amazon Delivery Time Prediction")
 st.subheader("Fill the details below to predict delivery time in hours.")
 
 # Load model from MLflow
-loaded_model = mlflow.pyfunc.load_model("models:/XGBoost_RegModel/1")
+# loaded_model = mlflow.pyfunc.load_model("models:/XGBoost_RegModel/1")
+"""
+if I deployed the model using MLflow Model Registry, I would use the above line to load the model directly from there.
+"""
+# previously used for loading model from MLflow Model Registry
+# Now using direct XGBoost model loading
+# Load the trained XGBoost model
+loaded_model = xgb.XGBRegressor()
+loaded_model.load_model(
+    r"mlruns\190647272504744062\models\m-0cc85a7892ec4215bf3cfacea01ea75b\artifacts\model.xgb"
+)
+
+# r is used for raw string to handle backslashes in Windows paths
 
 df = pd.read_csv("Cleaned_amazon_delivery.csv")
 le = LabelEncoder()
