@@ -109,3 +109,6 @@ if submitted:
         unsafe_allow_html=True,
     )
     st.balloons()
+
+
+# deplyed url = https://predictdelivery-time.streamlit.app/
