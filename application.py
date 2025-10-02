@@ -111,4 +111,4 @@ if submitted:
     st.balloons()
 
 
-# deplyed url = https://predictdelivery-time.streamlit.app/
+# deployed url = https://predictdelivery-time.streamlit.app/
